@@ -1,0 +1,17 @@
+{
+  "name": "typescript-example",
+  "version": "1.0.0",
+  "description": "typescript example",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:rtflbl": "node out/read_text_file_line_by_line.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "itsnow",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  }
+}
